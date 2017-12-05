@@ -1,5 +1,8 @@
 function reverse(str) {
-    //todo
+    var sString = str.split("")
+    var rArray = sString.reverse()
+    var rString = rArray.join("")
+    return rString
 }
 
 function compress(sentence) {
